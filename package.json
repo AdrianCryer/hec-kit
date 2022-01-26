@@ -1,0 +1,27 @@
+{
+    "name": "hec-kit",
+    "version": "1.0.0",
+    "description": "A simple experimental game engine entity component kit that uses internal object hierachies to order and transmit state (i.e. UpdateTrees). ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AdrianCryer/hec-kit.git"
+    },
+    "author": "Adrian Cryer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AdrianCryer/hec-kit/issues"
+    },
+    "homepage": "https://github.com/AdrianCryer/hec-kit#readme",
+    "dependencies": {
+        "short-uuid": "^4.2.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.5.5",
+        "@types/mocha": "^9.1.0",
+        "mocha": "^9.2.0"
+    }
+}
